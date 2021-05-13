@@ -1,0 +1,46 @@
+body {
+  background-color: #eee;
+}
+
+/*nadpis BTS*/
+.nadpis {
+  margin-top: -360px;
+  margin-bottom: 270px;
+  color: white;
+  font-size: 95px;
+  text-shadow: 8px 4px 3px #000000;
+}
+
+/* responsive bts pic*/
+.responsive {
+  width: 100%;
+  max-width: 2500px;
+  height: auto;
+}
+
+/* navbar */
+.navbar {
+  background-color: rgb(20, 20, 20);
+}
+
+/* bg-dark */
+.bg-dark {
+  background-color: rgb(20, 20, 20)!important;
+}
+
+/*dropdown active color*/
+.dropdown-color:active {
+  background: rgb(20, 20, 20) !important;
+}
+
+/*dropdown hover color*/
+.dropdown-color:hover {
+  background-color: rgb(201, 201, 201);
+}
+
+/*navbar logo center*/
+#center-logo {
+  position: absolute !important;
+  left: 50% !important;
+  right: 50% !important;
+}
