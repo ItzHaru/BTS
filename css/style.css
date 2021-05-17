@@ -2,13 +2,19 @@ body {
   background-color: #eee;
 }
 
+
 /*nadpis BTS*/
 .nadpis {
-  margin-top: -360px;
-  margin-bottom: 270px;
+  margin-top: -350px;
+  margin-bottom: 260px;
   color: white;
-  font-size: 95px;
-  text-shadow: 8px 4px 3px #000000;
+  font-size: 90px;
+  text-shadow: 6px 3px 3px #000000;
+  position: absolute;
+}
+
+.clear {
+  clear: both;
 }
 
 /* responsive bts pic*/
@@ -28,19 +34,140 @@ body {
   background-color: rgb(20, 20, 20)!important;
 }
 
-/*dropdown active color*/
+/* Dropdown active color*/
 .dropdown-color:active {
   background: rgb(20, 20, 20) !important;
 }
 
-/*dropdown hover color*/
+/* Dropdown hover color*/
 .dropdown-color:hover {
   background-color: rgb(201, 201, 201);
 }
 
-/*navbar logo center*/
+/* Navbar letter logo center*/
 #center-logo {
   position: absolute !important;
   left: 50% !important;
   right: 50% !important;
+}
+
+/* Navbar toggle icon*/
+.navbar-light .navbar-toggler-icon {
+background-image: url(../img/navbar-toggle.png);
+}
+
+/* Navbar opacity */
+.navbar {
+  opacity: 97%;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+/* Responsive title BTS */
+@media only screen and (max-width: 2500px) {
+  .t-responsive {
+    font-size: 180px;
+    margin-top: -550px;
+  }
+}
+
+@media only screen and (max-width: 2200px) {
+  .t-responsive {
+    font-size: 150px;
+    margin-top: -500px;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  .t-responsive {
+    font-size: 140px;
+    margin-top: -450px;
+  }
+}
+
+@media only screen and (max-width: 1850px) {
+  .t-responsive {
+    font-size: 130px;
+    margin-top: -430px;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .t-responsive {
+    font-size: 120px;
+    margin-top: -400px;
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  .t-responsive {
+    font-size: 110px;
+    margin-top: -380px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .t-responsive {
+    font-size: 100px;
+    margin-top: -350px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .t-responsive {
+    font-size: 95px;
+    margin-top: -330px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .t-responsive {
+    font-size: 90px;
+    margin-top: -300px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .t-responsive {
+    font-size: 80px;
+    margin-top: -240px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .t-responsive {
+    font-size: 60px;
+    margin-top: -180px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+    .t-responsive {
+      font-size: 40px;
+      margin-top: -130px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+  .t-responsive {
+    font-size: 35px;
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .t-responsive {
+    font-size: 30px;
+    margin-top: -90px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .t-responsive {
+    font-size: 25px;
+    margin-top: -70px;
+  }
 }
