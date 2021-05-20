@@ -67,7 +67,94 @@ a {
   color: inherit !important;
 }
 
+/* socials hover */
+.twitterof {
+    background-image: url(../img/twitter-star.png);
+}
 
+.twitterof:hover {
+    background-image: url(../img/twitter-star-w.png);
+}
+
+.twitter {
+    background-image: url(../img/twitter.png);
+}
+
+.twitter:hover {
+    background-image: url(../img/twitter-w.png);
+}
+
+.facebook {
+    background-image: url(../img/facebook.png);
+}
+
+.facebook:hover {
+    background-image: url(../img/facebook-w.png);
+}
+
+.insta {
+    background-image: url(../img/insta.png);
+}
+
+.insta:hover {
+    background-image: url(../img/insta-w.png);
+}
+
+.yt {
+    background-image: url(../img/youtube.png);
+}
+
+.yt:hover {
+    background-image: url(../img/youtube-w.png);
+}
+
+.weibo {
+    background-image: url(../img/weibo.png);
+}
+
+.weibo:hover {
+    background-image: url(../img/weibo-w.png);
+}
+
+.weibo-m {
+    background-image: url(../img/weibo-member.png);
+}
+
+.weibo-m:hover {
+    background-image: url(../img/weibo-member-w.png);
+}
+
+.youku {
+    background-image: url(../img/youku.png);
+}
+
+.youku:hover {
+    background-image: url(../img/youku-w.png);
+}
+
+.weverse {
+    background-image: url(../img/weverse.png);
+}
+
+.weverse:hover {
+    background-image: url(../img/weverse-w.png);
+}
+
+.cafe {
+    background-image: url(../img/cafe.png);
+}
+
+.cafe:hover {
+    background-image: url(../img/cafe-w.png);
+}
+
+.blog {
+    background-image: url(../img/blog.png);
+}
+
+.blog:hover {
+    background-image: url(../img/blog-w.png);
+}
 
 /* Responsive title BTS */
 @media only screen and (max-width: 2500px) {
