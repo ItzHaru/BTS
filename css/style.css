@@ -2,8 +2,8 @@ body {
   background-color: #eee;
 }
 
-
 /*nadpis BTS*/
+
 .nadpis {
   margin-top: -350px;
   margin-bottom: 260px;
@@ -18,6 +18,7 @@ body {
 }
 
 /* responsive bts pic*/
+
 .responsive {
   width: 100%;
   max-width: 2500px;
@@ -25,27 +26,32 @@ body {
 }
 
 /* navbar */
+
 .navbar {
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(20  , 20  , 20  );
 }
 
 /* bg-dark */
+
 .bg-dark {
   background-color: rgb(20, 20, 20)!important;
 }
 
 /* Dropdown active color*/
+
 .dropdown-color:active {
   background: rgb(20, 20, 20) !important;
   color: #eee !important;
 }
 
 /* Dropdown hover color*/
+
 .dropdown-color:hover {
   background-color: rgb(201, 201, 201);
 }
 
 /* Navbar letter logo center*/
+
 #center-logo {
   position: absolute !important;
   left: 50% !important;
@@ -53,11 +59,13 @@ body {
 }
 
 /* Navbar toggle icon*/
+
 .navbar-light .navbar-toggler-icon {
-background-image: url(../img/navbar-toggle.png);
+  background-image: url(../img/navbar-toggle.png);
 }
 
 /* Navbar opacity */
+
 .navbar {
   opacity: 97%;
 }
@@ -68,95 +76,97 @@ a {
 }
 
 /* socials hover */
+
 .twitterof {
-    background-image: url(../img/twitter-star.png);
+  background-image: url(../img/twitter-star.png);
 }
 
 .twitterof:hover {
-    background-image: url(../img/twitter-star-w.png);
+  background-image: url(../img/twitter-star-w.png);
 }
 
 .twitter {
-    background-image: url(../img/twitter.png);
+  background-image: url(../img/twitter.png);
 }
 
 .twitter:hover {
-    background-image: url(../img/twitter-w.png);
+  background-image: url(../img/twitter-w.png);
 }
 
 .facebook {
-    background-image: url(../img/facebook.png);
+  background-image: url(../img/facebook.png);
 }
 
 .facebook:hover {
-    background-image: url(../img/facebook-w.png);
+  background-image: url(../img/facebook-w.png);
 }
 
 .insta {
-    background-image: url(../img/insta.png);
+  background-image: url(../img/insta.png);
 }
 
 .insta:hover {
-    background-image: url(../img/insta-w.png);
+  background-image: url(../img/insta-w.png);
 }
 
 .yt {
-    background-image: url(../img/youtube.png);
+  background-image: url(../img/youtube.png);
 }
 
 .yt:hover {
-    background-image: url(../img/youtube-w.png);
+  background-image: url(../img/youtube-w.png);
 }
 
 .weibo {
-    background-image: url(../img/weibo.png);
+  background-image: url(../img/weibo.png);
 }
 
 .weibo:hover {
-    background-image: url(../img/weibo-w.png);
+  background-image: url(../img/weibo-w.png);
 }
 
 .weibo-m {
-    background-image: url(../img/weibo-member.png);
+  background-image: url(../img/weibo-member.png);
 }
 
 .weibo-m:hover {
-    background-image: url(../img/weibo-member-w.png);
+  background-image: url(../img/weibo-member-w.png);
 }
 
 .youku {
-    background-image: url(../img/youku.png);
+  background-image: url(../img/youku.png);
 }
 
 .youku:hover {
-    background-image: url(../img/youku-w.png);
+  background-image: url(../img/youku-w.png);
 }
 
 .weverse {
-    background-image: url(../img/weverse.png);
+  background-image: url(../img/weverse.png);
 }
 
 .weverse:hover {
-    background-image: url(../img/weverse-w.png);
+  background-image: url(../img/weverse-w.png);
 }
 
 .cafe {
-    background-image: url(../img/cafe.png);
+  background-image: url(../img/cafe.png);
 }
 
 .cafe:hover {
-    background-image: url(../img/cafe-w.png);
+  background-image: url(../img/cafe-w.png);
 }
 
 .blog {
-    background-image: url(../img/blog.png);
+  background-image: url(../img/blog.png);
 }
 
 .blog:hover {
-    background-image: url(../img/blog-w.png);
+  background-image: url(../img/blog-w.png);
 }
 
 /* Responsive title BTS */
+
 @media only screen and (max-width: 2500px) {
   .t-responsive {
     font-size: 180px;
@@ -235,10 +245,10 @@ a {
 }
 
 @media only screen and (max-width: 540px) {
-    .t-responsive {
-      font-size: 40px;
-      margin-top: -130px;
-    }
+  .t-responsive {
+    font-size: 40px;
+    margin-top: -130px;
+  }
 }
 
 @media only screen and (max-width: 380px) {
@@ -259,5 +269,13 @@ a {
   .t-responsive {
     font-size: 25px;
     margin-top: -70px;
+  }
+}
+
+/* footer border responsive */
+@media only screen and (max-width: 768px) {
+  .f {
+    border-right: none !important;
+    border-bottom: 1px solid #dee2e6 !important;
   }
 }
