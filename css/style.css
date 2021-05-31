@@ -17,6 +17,10 @@ body {
   clear: both;
 }
 
+.home {
+  scroll-behavior: smooth;
+}
+
 /* responsive bts pic*/
 
 .responsive {

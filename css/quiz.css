@@ -9,13 +9,13 @@ body {
 /* navbar */
 
 .navbar {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(20, 20, 20);
 }
 
 /* bg-dark */
 
 .bg-dark {
-    background-color: rgb(25, 25, 25)!important;
+    background-color: rgb(20, 20, 20)!important;
 }
 
 /* Dropdown active color*/
@@ -144,20 +144,4 @@ a {
 
 .blog:hover {
     background-image: url(../img/blog-w.png);
-}
-
-.gyeong {
-    border: 1px solid rgb(179, 179, 179);
-    margin-top: 10px;
-    padding-top: 15px;
-    margin-bottom: 17px;
-    background-color: rgb(240, 240, 240);
-}
-
-.margintop {
-    margin-top: -15px;
-}
-
-.text-box {
-    display: block !important;
 }
