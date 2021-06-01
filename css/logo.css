@@ -2,6 +2,12 @@ body {
     background-color: #eee;
 }
 
+/* smooth scroll */
+
+html {
+    scroll-behavior: smooth;
+  }
+
 .clear {
     clear: both;
 }
@@ -149,7 +155,7 @@ a {
 .gyeong {
     border: 1px solid rgb(179, 179, 179);
     margin-top: 10px;
-    padding-top: 15px;
+    padding-top: 10px;
     margin-bottom: 17px;
     background-color: rgb(240, 240, 240);
 }
@@ -158,6 +164,44 @@ a {
     margin-top: -15px;
 }
 
-.text-box {
-    display: block !important;
+/* responsive */
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+      height: 10px;
+      width: 30px;
+    }
+  }
+
+.responsive2 {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+  }
+
+.responsive3 {
+    width: 100%;
+    max-width: 630px;
+    height: auto;
 }
+
+.responsive4 {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
+
+.responsive5 {
+    width: 100%;
+    max-width: 566px;
+    height: auto;   
+}
+
+/* footer border responsive */
+
+@media only screen and (max-width: 767px) {
+    .f {
+      border-right: none !important;
+      border-bottom: 1px solid #dee2e6 !important;
+    }
+  }

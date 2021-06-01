@@ -17,7 +17,9 @@ body {
   clear: both;
 }
 
-.home {
+/* smooth scroll */
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -25,14 +27,13 @@ body {
 
 .responsive {
   width: 100%;
-  max-width: 2500px;
   height: auto;
 }
 
 /* navbar */
 
 .navbar {
-  background-color: rgb(20  , 20  , 20  );
+  background-color: rgb(20, 20, 20);
 }
 
 /* bg-dark */
@@ -277,7 +278,8 @@ a {
 }
 
 /* footer border responsive */
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 767px) {
   .f {
     border-right: none !important;
     border-bottom: 1px solid #dee2e6 !important;

@@ -6,6 +6,13 @@ body {
     clear: both;
 }
 
+/* smooth scroll */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
 /* navbar */
 
 .navbar {
@@ -54,6 +61,13 @@ body {
 a {
     text-decoration: none !important;
     color: inherit !important;
+}
+
+/* option color */
+
+.option-color:hover {
+    background-color: rgb(20, 20, 20) !important;
+    color: #eee;
 }
 
 /* socials hover */
@@ -144,4 +158,18 @@ a {
 
 .blog:hover {
     background-image: url(../img/blog-w.png);
+}
+
+/* footer border responsive */
+
+@media only screen and (max-width: 767px) {
+    .f {
+      border-right: none !important;
+      border-bottom: 1px solid #dee2e6 !important;
+    }
+  }
+
+/* button color */
+.btn-dark {
+    background-color: rgb(20, 20, 20);
 }

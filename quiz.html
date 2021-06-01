@@ -10,7 +10,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/quiz.css">
+
+    <!-- icon -->
+    <link rel="icon" href="img/bts-icon.png">
 </head>
 
 <body>
@@ -38,9 +43,9 @@
                         <a class="dropdown-item dropdown-color" href="">Fandom</a>
                         <a class="dropdown-item dropdown-color" href="">Concerts</a>
                         <a class="dropdown-item dropdown-color" href="logo.html">Logo</a>
+                        <a class="dropdown-item dropdown-color" href="">Lightstick</a>
                         <a class="dropdown-item dropdown-color" href="">Content</a>
-                        <a class="dropdown-item dropdown-color" href="">Quiz</a>
-                        <a class="dropdown-item dropdown-color" href="">Contact</a>
+                        <a class="dropdown-item dropdown-color" href="#">Quiz</a>
                     </div>
                 </li>
             </ul>
@@ -52,19 +57,175 @@
     </header>
     <main class="container">
         <form class="p-3">
-            <p class="alert alert-secondary">1. What does BTS stands for?</p>
-            <input type="text" class="form-control" name="BTS meaning" id="BTS meaning" placeholder="....">
-            <p class="alert alert-success answer collapse multi-collapse" id="answer1">Bangtan Sonyeondan
+            <p class="alert alert-secondary mt-2">1. What does BTS stands for?</p>
+            <input type="text" class="form-control" name="BTS-meaning" id="BTS-meaning" placeholder="write at least 1 meaning">
+            <p class="alert alert-success answer collapse multi-collapse mt-2" id="answer1">Bangtan Sonyeondan,
+                Bulletproof Boy Scouts Bangtan
+                Boys, Beyond the Scene,
             </p>
             <hr>
-            <div class="form-group row">
-                <div class="offset-sm-2 col-sm-10">
-                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target=".multi-collapse"
-                        aria-expanded="false"
-                        aria-controls="answer1 answer2 answer3 answer4 answer5 answer6">Answers</button>
+            <p class="alert alert-secondary mt-4">2. What does A.R.M.Y stands for?</p>
+            <input type="text" class="form-control" name="ARMY-meaning" id="ARMY-meaning" placeholder="write full meaning">
+            <p class="alert alert-success answer collapse multi-collapse mt-2" id="answer2">Adorable Representative M.C.
+                for Youth
+            </p>
+            <hr>
+            <p class="alert alert-secondary mt-4">3. What is BTS lightstick called?</p>
+            <div class="container">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lighstickname" id="lighstick" value="option1">
+                    <label class="form-check-label" for="lighstick">BTS lightstick</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lighstickname" id="stick" value="option2">
+                    <label class="form-check-label" for="stick">BTS stick</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lighstickname" id="light" value="option2">
+                    <label class="form-check-label" for="light">ARMY light</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lighstickname" id="ab" value="option2">
+                    <label class="form-check-label" for="ab">ARMY Bomb</label>
                 </div>
             </div>
+            <p class="alert alert-success answer collapse multi-collapse mt-2" id="answer3">ARMY Bomb
+            </p>
+            <hr>
+            <div class="form-group">
+                <p class="alert alert-secondary mt-4">4. When did BTS debut?</p>
+                <select class="form-control" id="debut">
+                    <option class="option-color">April 29, 2013</option>
+                    <option class="option-color">May 5, 2013</option>
+                    <option class="option-color">June 13, 2013</option>
+                    <option class="option-color">July 9, 2013</option>
+                    <option class="option-color">September 1, 2013</option>
+                </select>
+                <p class="alert alert-success answer collapse multi-collapse mt-2" id="answer4">June 13, 2013
+                </p>
+            </div>
+            <hr>
+            <p class="alert alert-secondary mt-4">5. Which logo is the official logo of BTS?</p>
+            <div class="container row">
+                <div class="form-check col-md-3">
+                    <input class="form-check-input" type="radio" name="logo" id="army-logo" value="option1">
+                    <label class="form-check-label" for="army-logo">
+                        <img src="img/army-logo.png" height="100" alt="ARMY logo">
+                    </label>
+                </div>
+                <div class="form-check col-md-3">
+                    <input class="form-check-input" type="radio" name="logo" id="bts-letter" value="option2">
+                    <label class="form-check-label" for="bts-letter">
+                        <img src="img/bts-letter.png" height="90" alt="BTS letter logo">
+                    </label>
+                </div>
+                <div class="form-check col-md-3">
+                    <input class="form-check-input" type="radio" name="logo" id="skz" value="option3">
+                    <label class="form-check-label" for="skz">
+                        <img src="img/skz-logo.png" height="100" alt="Stray Kids logo">
+                    </label>
+                </div>
+                <div class="form-check col-md-3">
+                    <input class="form-check-input" type="radio" name="logo" id="bts-logo" value="option4">
+                    <label class="form-check-label" for="bts-logo">
+                        <img class="mr-3" src="img/bts-logo.png" height="100" alt="BTS logo">
+                    </label>
+                </div>
+            </div>
+            <p class="alert alert-success answer collapse multi-collapse mt-2" id="answer5"><img src="img/bts-logo.png"
+                    height="100" alt="BTS logo">
+            </p>
+            <hr>
+            <p class="alert alert-secondary mt-5">6. Who is the leader of BTS?</p>
+            <div class="container">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="members" id="rm" value="option1">
+                    <label class="form-check-label" for="rm">
+                        RM
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="members" id="jin" value="option2">
+                    <label class="form-check-label" for="jin">
+                        Jin
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="members" id="suga" value="option3">
+                    <label class="form-check-label" for="suga">
+                        Suga
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="members" id="j-hope" value="option4">
+                    <label class="form-check-label" for="j-hope">
+                        J-hope
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="members" id="jimin" value="option5">
+                    <label class="form-check-label" for="jimin">
+                        Jimin
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="members" id="v" value="option6">
+                    <label class="form-check-label" for="v">
+                        V
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="members" id="jungkook" value="option7">
+                    <label class="form-check-label" for="jungkook">
+                        Jungkook
+                    </label>
+                </div>
+            </div>
+            <p class="alert alert-success answer collapse multi-collapse mt-2" id="answer6">RM
+            </p>
+            <hr>
+            <p class="alert alert-secondary mt-4">7. Who is in the vocal line?</p>
+            <div class="container">
+
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">RM</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">Jin</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                    <label class="form-check-label" for="inlineCheckbox3">Suga</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                    <label class="form-check-label" for="inlineCheckbox4">J-hope</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                    <label class="form-check-label" for="inlineCheckbox5">Jimin</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+                    <label class="form-check-label" for="inlineCheckbox6">V</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option7">
+                    <label class="form-check-label" for="inlineCheckbox7">Jungkook</label>
+                </div>
+            </div>
+            <p class="alert alert-success answer collapse multi-collapse mt-2" id="answer7">Jin, Jimin, V, Jungkook
+            </p>
+            <div class="container-wrap">
+                <button type="button" class="btn btn-dark mt-4" data-toggle="collapse" data-target=".multi-collapse"
+                    aria-expanded="false"
+                    aria-controls="answer1 answer2 answer3 answer4 answer5 answer6 answer7">Answers</button>
+            </div>
         </form>
+        <div class="clear"></div>
     </main>
     <footer class="text-center bg-dark text-light container-fluid p-3">
         <div class="row">
