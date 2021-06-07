@@ -8,14 +8,10 @@ html {
     scroll-behavior: smooth;
   }
 
-.clear {
-    clear: both;
-}
-
 /* navbar */
 
 .navbar {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(20, 20, 20);
 }
 
 /* bg-dark */
@@ -166,13 +162,6 @@ a {
 
 /* responsive */
 
-@media only screen and (max-width: 500px) {
-    .responsive {
-      height: 10px;
-      width: 30px;
-    }
-  }
-
 .responsive2 {
     width: 100%;
     max-width: 700px;
@@ -197,6 +186,14 @@ a {
     height: auto;   
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+  .clear {
+    clear: both;
+}
 /* footer border responsive */
 
 @media only screen and (max-width: 767px) {
