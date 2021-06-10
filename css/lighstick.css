@@ -147,61 +147,14 @@ a {
 .blog:hover {
     background-image: url(../img/blog-w.png);
 }
-
-.gyeong {
-    border: 1px solid rgb(179, 179, 179);
-    margin-top: 10px;
-    padding-top: 10px;
-    margin-bottom: 17px;
-    background-color: rgb(240, 240, 240);
-}
-
-.margintop {
-    margin-top: -15px;
-}
-
-/* responsive */
-
-.responsive2 {
-    width: 100%;
-    max-width: 700px;
-    height: auto;
-  }
-
-.responsive3 {
-    width: 100%;
-    max-width: 630px;
-    height: auto;
-}
-
-.responsive4 {
-    width: 100%;
-    max-width: 550px;
-    height: auto;
-}
-
-.responsive5 {
-    width: 100%;
-    max-width: 566px;
-    height: auto;   
-}
-
-.responsive {
-    width: 100%;
-    height: auto;
-}
-
-  .clear {
-    clear: both;
-}
-/* footer border responsive */
-
-@media only screen and (max-width: 767px) {
-    .f {
-      border-right: none !important;
-      border-bottom: 1px solid #dee2e6 !important;
-    }
-  }
+      /* footer border responsive */
+    
+    @media only screen and (max-width: 767px) {
+        .f {
+          border-right: none !important;
+          border-bottom: 1px solid #dee2e6 !important;
+        }
+      }
 
 /*responsive YT video*/
 .responsive {
