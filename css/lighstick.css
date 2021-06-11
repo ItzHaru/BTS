@@ -169,3 +169,10 @@ a {
     width: 100%;
     height: 100%;
 }
+
+  /* zarovnani do stredu */
+  .zarovnani {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    }
