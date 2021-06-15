@@ -170,3 +170,19 @@ table, td, th {
 .zarovnani {
   vertical-align: middle !important;
 }
+
+.won {
+  background-color: rgb(154, 255, 123);
+}
+
+.nom {
+  background-color: rgb(255, 132, 132);
+}
+
+.shortlist {
+  background-color: rgb(255, 241, 116);
+}
+
+.gold {
+  background-color: rgb(255, 200, 62);
+}
