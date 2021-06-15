@@ -6,7 +6,7 @@ body {
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 /* navbar */
 
@@ -147,21 +147,25 @@ a {
 .blog:hover {
     background-image: url(../img/blog-w.png);
 }
-      /* footer border responsive */
-    
-    @media only screen and (max-width: 767px) {
-        .f {
-          border-right: none !important;
-          border-bottom: 1px solid #dee2e6 !important;
-        }
-      }
+
+/* footer border responsive */
+
+@media only screen and (max-width: 767px) {
+    .f {
+        border-right: none !important;
+        border-bottom: 1px solid #dee2e6 !important;
+    }
+}
 
 /*responsive YT video*/
+
 .responsive {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* tato hodnota určuje poměr, 4:3 = 75%, 3:2 = 66%, 16:9 = 56.25% */
+    padding-bottom: 56.25%;
+    /* tato hodnota určuje poměr, 4:3 = 75%, 3:2 = 66%, 16:9 = 56.25% */
 }
+
 .responsive iframe {
     position: absolute;
     left: 0;
@@ -170,9 +174,15 @@ a {
     height: 100%;
 }
 
-  /* zarovnani do stredu */
-  .zarovnani {
-    display:block;
+/* zarovnani do stredu */
+
+.zarovnani {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    }
+}
+
+.carousel1 {
+    margin-left: 25%;
+    margin-right: 25%;
+}
