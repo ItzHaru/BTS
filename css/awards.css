@@ -194,3 +194,9 @@ table, td, th {
 .pending {
   background-color: rgb(255, 254, 169);
 }
+
+.responsive {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
